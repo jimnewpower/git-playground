@@ -40,12 +40,9 @@ Demonstration of git functionality
 ### *Create and switch to new branch*:
 ```
     $ git checkout -b branch-1
-<<<<<<< HEAD
     $ git branch
     * branch-1
     main
-=======
->>>>>>> 7c8b400517fc4bad6828b50a7b312d25cee2b2e5
 ```
 - *add branch1() method*:
 ```
@@ -94,10 +91,7 @@ Demonstration of git functionality
 ```
     $ git rebase branch-1
 ```
-<<<<<<< HEAD
 So now we have two branches, main and branch-1. On the main branch, we created the GitPlayground.java file. After that, we switched to branch-1 performed two commits: one after adding the new method, and one after adding the instance variable. Next, instead of merging branch-1 onto main, we rebased main. By rebasing, the two commits on branch-1 are now on the main branch, and there is no merge commit. Finally, we can delete branch-1.
 ```
     $ git branch -d branch-1
 ```
-=======
->>>>>>> 7c8b400517fc4bad6828b50a7b312d25cee2b2e5
