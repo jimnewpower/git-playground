@@ -8,7 +8,10 @@ Demonstration of git functionality
           System.out.println("Hello Git");
         }
     }
+```
 
+### *Check git status*:
+```
     $ git status
 
     On branch main
@@ -17,7 +20,10 @@ Demonstration of git functionality
     Untracked files:
       (use "git add <file>..." to include in what will be committed)
 	          GitPlayground.java
+```
 
+### *Commit the new file and push to remote*:
+```
     $ git commit -a -m "main1: Add GitPlayground"
 
     [main 7a4d362] main1: Add GitPlayground
